@@ -1,0 +1,87 @@
+.gallery 
+{
+ width:80%;
+ margin:60px auto;
+ background-color: gray;
+ padding-left: 50px;
+}
+.gallery img 
+{
+   
+filter:grayscale(0%); 
+ height: 300px;
+ width: 300px;
+ margin: 15px;
+ padding:0px;
+ transition: all 0.5s;
+ box-shadow: 10px 10px 10px 10px black;
+}
+.gallery img:hover
+{
+ border-radius: 50px;
+ filter: grayscale(0%);
+}
+
+body 
+{
+ background-image:url(./images2/abstract.png);
+ background-position:left bottom;
+ background-attachment:fixed;
+}
+
+h1 {
+    /* border-style: groove dotted groove dotted; */
+    /* border-width: 5px; */
+    text-align: center;
+    color:white;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: cursive;
+    font-size: 40px;
+    text-decoration:underline;
+}
+.container_12 
+{
+    background-color: grey;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: cursive;
+}
+.About
+{
+    background-color: gray;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: cursive;
+    width:80%;
+    margin:60px auto;
+    padding-left: 50px;
+    font-size: 40px;
+}
+.Services 
+{
+  background-color: gray;
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+  font-family: cursive;
+  width:80%;
+  margin:60px auto;
+  padding-left: 50px;
+  font-size: 40px;
+}
+.Contact
+{
+  background-color: gray;
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+  font-family: cursive;
+  width:80%;
+  margin:60px auto;
+  padding-left: 50px;
+  font-size: 40px;
+}
+.More 
+{
+  background-color: gray;
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+  font-family: cursive;
+  width:80%;
+  margin:60px auto;
+  padding-left: 50px;
+  font-size: 40px;
+}
